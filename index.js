@@ -6,7 +6,6 @@ const imageType = require('image-type');
 const execFile = require('child_process').execFile;
 const cwebp = require('cwebp-bin');
 const program = require('commander');
-const chalk = require('chalk');
 
 program
   .version('0.0.1')
@@ -49,7 +48,7 @@ const walk = (path) => {
 if (program.files) files = program.files;
 else walk(process.cwd());
 
-console.log(chalk.yellow(`Found ${files.length} images`));
+console.log(`Found ${files.length} images`);
 
 const options = [
   ...getOption('-q', program.quality),
@@ -59,6 +58,6 @@ const options = [
 files.forEach((file) => {
   execFile(cwebp, [...options, file, '-o', file.replace(getExt(file),".webp")], (err) => {
     if (err) throw err;
-    console.log(chalk.green(`${file} converted!`));
+    console.log(`${file} converted!`);
   });
 });
