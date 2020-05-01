@@ -1,6 +1,6 @@
 {
   "name": "@yukioru/cwebp-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool, for convert jpg/png files to webp",
   "main": "index.js",
   "bin": {

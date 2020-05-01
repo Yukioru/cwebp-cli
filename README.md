@@ -1,5 +1,12 @@
 # cwebp-cli
 
+![Publish node.js package](https://github.com/Yukioru/cwebp-cli/workflows/Publish%20node.js%20package/badge.svg?branch=master)
+[![NPM verison](https://img.shields.io/npm/v/@yukioru/cwebp-cli)](https://www.npmjs.com/package/@yukioru/cwebp-cli)
+[![GPR verison](https://img.shields.io/github/v/release/yukioru/cwebp-cli?label=gpr)](https://github.com/Yukioru/cwebp-cli/packages/207466)
+![License](https://img.shields.io/github/license/yukioru/cwebp-cli)
+
+## Language: [Russian](https://github.com/Yukioru/cwebp-cli/blob/master/README_RU.md) | English
+
 CLI tool for convert jpg/png files to webp.
 
 Based on [cwebp Encoder](https://developers.google.com/speed/webp/docs/cwebp)
@@ -19,7 +26,6 @@ yarn global add @yukioru/cwebp-cli
 
 ## How to use after install
 Run `cwebp` in your console.
-
 
 ## Options
 **-V, --version**
