@@ -4,6 +4,11 @@ CLI tool for convert jpg/png files to webp.
 
 Based on [cwebp Encoder](https://developers.google.com/speed/webp/docs/cwebp)
 
+## How to instant use
+```
+npx @yukioru/cwebp-cli 
+```
+
 ## How to install
 ```
 npm install -g @yukioru/cwebp-cli
@@ -12,7 +17,7 @@ npm install -g @yukioru/cwebp-cli
 yarn global add @yukioru/cwebp-cli
 ```
 
-## How to use
+## How to use after install
 Run `cwebp` in your console.
 
 

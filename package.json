@@ -1,14 +1,13 @@
 {
   "name": "@yukioru/cwebp-cli",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool, for convert jpg/png files to webp",
   "main": "index.js",
-  "preferGlobal": true,
   "bin": {
     "cwebp": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "webp",
@@ -17,11 +16,17 @@
     "recursive",
     "cwebp"
   ],
+  "homepage": "https://github.com/Yukioru/cwebp-cli#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Yukioru/cwebp-cli.git"
   },
+  "bugs": {
+    "url" : "https://github.com/Yukioru/cwebp-cli/issues",
+    "email" : "i@yukio.ru"
+  },
   "author": "Andrey Kondalov <i@yukio.ru> (https://yukio.ru/)",
+  "license": "MIT",
   "dependencies": {
     "commander": "^5.1.0",
     "cwebp-bin": "^5.1.0",
