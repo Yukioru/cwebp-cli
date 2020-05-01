@@ -1,0 +1,29 @@
+{
+  "name": "cwebp-cli",
+  "version": "0.0.1",
+  "description": "CLI tool, for convert jpg/png files to webp",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "cwebp": "./index.js"
+  },
+  "keywords": [
+    "webp",
+    "convert",
+    "images",
+    "recursive",
+    "cwebp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yukioru/cwebp-cli.git"
+  },
+  "author": "Andrey Kondalov <i@yukio.ru>",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "cwebp-bin": "^3.2.0",
+    "image-type": "^2.1.0",
+    "read-chunk": "^2.0.0"
+  }
+}
