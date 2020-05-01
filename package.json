@@ -1,6 +1,6 @@
 {
   "name": "cwebp-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI tool, for convert jpg/png files to webp",
   "main": "index.js",
   "preferGlobal": true,
