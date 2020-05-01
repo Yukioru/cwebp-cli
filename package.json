@@ -1,5 +1,8 @@
 {
-  "name": "cwebp-cli",
+  "name": "@yukioru/cwebp-cli",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.3",
   "description": "CLI tool, for convert jpg/png files to webp",
   "main": "index.js",
@@ -18,7 +21,7 @@
     "type": "git",
     "url": "https://github.com/Yukioru/cwebp-cli.git"
   },
-  "author": "Andrey Kondalov <i@yukio.ru>",
+  "author": "Andrey Kondalov <i@yukio.ru> (https://yukio.ru/)",
   "dependencies": {
     "commander": "^5.1.0",
     "cwebp-bin": "^5.1.0",

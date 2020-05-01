@@ -4,10 +4,10 @@ CLI tool for convert jpg/png files to webp.
 
 ## How to install
 ```
-npm install -g cwebp-cli
+npm install -g @yukioru/cwebp-cli
 ```
 ```
-yarn global add cwebp-cli
+yarn global add @yukioru/cwebp-cli
 ```
 
 ## How to use
